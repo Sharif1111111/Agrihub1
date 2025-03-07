@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agricultural Information Hub</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <script src="main.js" defer></script>
+</head>
+<body class="bg-green-50 text-gray-800">
+
+  <!-- Hero Section -->
+  <section id="home" class="relative h-screen flex items-center justify-center">
+    <!-- Background Image with Overlay -->
+    <div class="absolute inset-0">
+      <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+           alt="Farm Field" 
+           class="w-full h-full object-cover">
+      <div class="absolute inset-0 bg-black opacity-60"></div> <!-- Dark Overlay -->
+    </div>
+    <!-- Content -->
+    <div class="relative text-center text-white px-4">
+      <h1 class="text-5xl font-bold mb-6">Welcome to the Agricultural Information Hub</h1>
+      <p class="text-lg mb-8 max-w-2xl mx-auto">
+        comprehensive resource for farming guides, crop details, pest control strategies, and expert advice.
+      </p>
+      <a href="farming-guides.html" class="bg-green-800 text-white px-8 py-3 rounded-lg hover:bg-green-700 transition duration-300">
+        Explore More
+      </a>
+    </div>
+  </section>
+<!-- About Section -->
+<section id="about" class="py-16 bg-white">
+  <div class="container mx-auto px-6">
+    <!-- Heading -->
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold text-green-900 mb-4">About the Agricultural Information Hub</h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Empowering farmers with knowledge and tools for sustainable agriculture.
+      </p>
+    </div>
+
+    <div class="flex flex-col lg:flex-row items-stretch gap-8">
+      <!--  Image -->
+      <div class="w-full lg:w-1/2 flex items-stretch">
+        <img src="https://plus.unsplash.com/premium_photo-1682088332011-4f99fc50b921?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzd8fHBsYW50aW5nfGVufDB8fDB8fHww" 
+             alt="Farm Field with Plants" 
+             class="w-full h-full object-cover rounded-lg shadow-lg">
+      </div>
+
+      <!--  Farming Information -->
+      <div class="w-full lg:w-1/2 flex items-stretch">
+        <div class="bg-white p-8 rounded-lg shadow-lg w-full">
+          <h3 class="text-2xl font-bold text-green-900 mb-6">Why Choose Us?</h3>
+          <p class="text-gray-700 mb-6">
+            The Agricultural Information Hub is designed to provide farmers and agriculture enthusiasts with the tools and knowledge they need to succeed. From detailed farming guides to crop-specific information and pest control strategies, we are here to support your agricultural journey.
+          </p>
+          <ul class="list-disc list-inside text-gray-700 mb-6">
+            <li class="mb-2">Step-by-step farming guides for beginners and experts.</li>
+            <li class="mb-2">Comprehensive crop details, including cultivation and harvesting techniques.</li>
+            <li class="mb-2">Effective pest control strategies to protect your crops.</li>
+            <li class="mb-2">Access to agricultural experts for personalized advice.</li>
+          </ul>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a href="farming-guides.html" class="bg-green-800 text-white px-6 py-3 rounded-lg text-center hover:bg-green-700 transition duration-300">
+              Explore Farming Guides
+            </a>
+            <a href="contact.html" class="bg-white text-green-800 px-6 py-3 rounded-lg border border-green-800 text-center hover:bg-green-50 transition duration-300">
+              Contact Experts
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Farming Guides Section -->
+  <section id="guides" class="py-12">
+    <div class="container mx-auto p-6">
+      <h2 class="text-3xl font-bold text-green-900 mb-8 text-center">Farming Guides</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+               alt="Crop Rotation" 
+               class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-4">Crop Rotation</h3>
+            <p class="text-gray-700 mb-6">Learn how to rotate crops for better soil health. Learn how to rotate crops for better soil health.</p>
+            <a href="#" class="bg-green-800 text-white px-6 py-3 rounded-lg text-center hover:bg-green-700 transition duration-300">Read More →</a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+               alt="Irrigation Techniques" 
+               class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-4">Irrigation Techniques</h3>
+            <p class="text-gray-700 mb-6">Explore modern and traditional irrigation methods. Explore modern and traditional irrigation methods.</p>
+            <a href="#" class="bg-green-800 text-white px-6 py-3 rounded-lg text-center hover:bg-green-700 transition duration-300">Read More →</a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+<iframe class="h-48 w-full object-cover"  src="https://www.youtube.com/embed/Vf_shMr3pbw" title="বাংলাদেশে কি অর্গানিক ফার্মিং সম্ভব? | Rise of Organic Farming in Bangladesh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-4">Organic Farming</h3>
+            <p class="text-gray-700 mb-6">Discover the benefits of organic farming practices. Discover the benefits of organic farming practices.</p>
+            <a href="#" class="bg-green-800 text-white px-6 py-3 rounded-lg text-center hover:bg-green-700 transition duration-300">Read More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Crop Details Section -->
+  <section id="guides" class="py-12">
+    <div class="container mx-auto p-6">
+      <h2 class="text-3xl font-bold text-green-900 mb-8 text-center">Farming Guides</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+               alt="Crop Rotation" 
+               class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-4">Crop Rotation</h3>
+            <p class="text-gray-700 mb-6">Learn how to rotate crops for better soil health. Learn how to rotate crops for better soil health.</p>
+            <a href="#" class="bg-green-800 text-white px-6 py-3 rounded-lg text-center hover:bg-green-700 transition duration-300">Read More →</a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+               alt="Irrigation Techniques" 
+               class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-4">Irrigation Techniques</h3>
+            <p class="text-gray-700 mb-6">Explore modern and traditional irrigation methods. Explore modern and traditional irrigation methods.</p>
+            <a href="#" class="bg-green-800 text-white px-6 py-3 rounded-lg text-center hover:bg-green-700 transition duration-300">Read More →</a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+<iframe class="h-48 w-full object-cover"  src="https://www.youtube.com/embed/Vf_shMr3pbw" title="বাংলাদেশে কি অর্গানিক ফার্মিং সম্ভব? | Rise of Organic Farming in Bangladesh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-4">Organic Farming</h3>
+            <p class="text-gray-700 mb-6">Discover the benefits of organic farming practices. Discover the benefits of organic farming practices.</p>
+            <a href="#" class="bg-green-800 text-white px-6 py-3 rounded-lg text-center hover:bg-green-700 transition duration-300">Read More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pest Control Strategies -->
+  <section id="guides" class="py-12">
+    <div class="container mx-auto p-6">
+      <h2 class="text-3xl font-bold text-green-900 mb-8 text-center">Farming Guides</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+               alt="Crop Rotation" 
+               class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-4">Crop Rotation</h3>
+            <p class="text-gray-700 mb-6">Learn how to rotate crops for better soil health. Learn how to rotate crops for better soil health.</p>
+            <a href="#" class="bg-green-800 text-white px-6 py-3 rounded-lg text-center hover:bg-green-700 transition duration-300">Read More →</a>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
+               alt="Irrigation Techniques" 
+               class="w-full h-48 object-cover">
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-4">Irrigation Techniques</h3>
+            <p class="text-gray-700 mb-6">Explore modern and traditional irrigation methods. Explore modern and traditional irrigation methods.</p>
+            <a href="#" class="bg-green-800 text-white px-6 py-3 rounded-lg text-center hover:bg-green-700 transition duration-300">Read More →</a>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+<iframe class="h-48 w-full object-cover"  src="https://www.youtube.com/embed/Vf_shMr3pbw" title="বাংলাদেশে কি অর্গানিক ফার্মিং সম্ভব? | Rise of Organic Farming in Bangladesh" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-green-800 mb-4">Organic Farming</h3>
+            <p class="text-gray-700 mb-6">Discover the benefits of organic farming practices. Discover the benefits of organic farming practices.</p>
+            <a href="#" class="bg-green-800 text-white px-6 py-3 rounded-lg text-center hover:bg-green-700 transition duration-300">Read More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Form -->
+</html>
